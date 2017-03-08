@@ -1,2 +1,0 @@
-# tuner
-gitar tuner
