@@ -1,0 +1,33 @@
+{
+  "name": "tuner",
+  "version": "1.0.0",
+  "description": "gitar tuner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yvan0423@github.com/yvan0423/tuner.git"
+  },
+  "keywords": [
+    "tuner"
+  ],
+  "author": "yvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvan0423/tuner"
+  },
+  "homepage": "https://github.com/yvan0423/tuner#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect":a "^5.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1",
+    "jshint": "^2.9.4"
+  }
+}
