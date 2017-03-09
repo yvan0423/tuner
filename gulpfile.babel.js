@@ -20,13 +20,13 @@ gulp.task('scripts', () => {
         .pipe(babel({
             presets: ['es2015']
         }))
+        // .pipe(jshint())
+        // .pipe(jshint.reporter('default'))
         .pipe(concat('all.js'))
         .pipe(gulp.dest(dest))
         .pipe(rename('all.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest(dest))
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
     gulp.src('./index.html')
         .pipe(changes(dest))
         .pipe(minifyhtml({ quotes: true }))

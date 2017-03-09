@@ -2,9 +2,25 @@
 <html>
 <head>
 	<title>TUNER</title>
+	<style>
+		#d:after {
+			content: '';
+			display: inline-block;
+			height: 255px;
+		}
+		#d div {
+			display: inline-block;
+			width: 2px;
+			margin-right: 1px;
+			vertical-align: bottom;
+		}
+	</style>
 </head>
 <body>
 <audio></audio>
+<button id="p">play</button>
+<button id="s">stop</button>
+<div id="d" style="height: 100px;"></div>
 <script type="text/javascript" src="./dist/all.js"></script>
 </body>
 </html>

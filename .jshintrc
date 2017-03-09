@@ -1,0 +1,8 @@
+{
+	"undef": false,
+	"unused": false,
+	"devel": true,
+	"globals": {
+		"require": true
+	}
+}
