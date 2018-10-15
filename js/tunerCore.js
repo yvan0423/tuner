@@ -24,10 +24,12 @@ function Tuner() {
   }
 
   this.tunerUpdate = () => {
-    console.log(this)
     const { analyser, dataArray, update } = this;
-    analyser.getByteFrequencyData(dataArray);
-    update && update(dataArray);
+    const data = analyser.getByteFrequencyData(dataArray);
+    // console.log(analyser.getByteTimeDomainData(dataArray))
+    update && update({
+      dataArray,
+    });
     this.timer = setTimeout(this.tunerUpdate, 20);
   }
 
